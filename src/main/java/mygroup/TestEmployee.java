@@ -14,11 +14,6 @@ public class TestEmployee {
 
     public static void main(String args []){
 
-
-
-
-
-
         Employee e1 = new Employee(32, "Liang9", 4200, "climate");
         Employee e2 = new Employee(20, "Liang3", 1200, "climate");
         Employee e3 = new Employee(25, "Liang2", 5200, "climate");
