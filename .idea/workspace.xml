@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0697c21f-1f1c-457e-8613-58b42b706214" name="Default Changelist" comment="" />
+    <list default="true" id="0697c21f-1f1c-457e-8613-58b42b706214" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="360">
               <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/DataKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="390">
               <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
@@ -66,8 +68,6 @@
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
                 <marker date="1565221839753" expanded="true" signature="641:902" ph="..." />
               </folding>
             </state>
@@ -82,6 +82,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,13 +125,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -350,6 +358,8 @@
       <workItem from="1565135818132" duration="1693000" />
       <workItem from="1565187016853" duration="925000" />
       <workItem from="1565207958386" duration="5187000" />
+      <workItem from="1565320420731" duration="248000" />
+      <workItem from="1565363357839" duration="30000" />
     </task>
     <servers />
   </component>
@@ -362,13 +372,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22770000" />
+    <option name="totallyTimeSpent" value="23048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="23" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32621503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33505154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="360">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -561,7 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/DataKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="390">
           <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
@@ -572,8 +581,6 @@
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
             <marker date="1565221839753" expanded="true" signature="641:902" ph="..." />
           </folding>
         </state>
@@ -582,7 +589,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
