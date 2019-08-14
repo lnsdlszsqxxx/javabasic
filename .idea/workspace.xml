@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0697c21f-1f1c-457e-8613-58b42b706214" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mygroup/LambdaExpressionTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mygroup/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mygroup/TestEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mygroup/TestEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mygroup/TestEmployee.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +18,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/MutableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="21" column="105" lean-forward="true" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+              <folding>
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/LambdaExpressionTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +91,9 @@
         <option value="$PROJECT_DIR$/src/main/java/mygroup/HashTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mygroup/DataKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/mygroup/TestEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mygroup/mutable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mygroup/LambdaExpressionTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mygroup/MutableTest.java" />
       </list>
     </option>
   </component>
@@ -82,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +152,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mygroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mygroup" type="462c0819:PsiDirectoryNode" />
+              <item name="MutableTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +224,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,20 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashMapTest">
-    <configuration name="EqualTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mygroup.EqualTest" />
-      <module name="javabasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mygroup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LambdaExpressionTest2">
     <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mygroup.HashMapTest" />
       <module name="javabasic" />
@@ -248,8 +277,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mygroup.TestEmployee" />
+    <configuration name="LambdaExpressionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mygroup.LambdaExpressionTest2" />
+      <module name="javabasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mygroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MutableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mygroup.MutableTest" />
       <module name="javabasic" />
       <extension name="coverage">
         <pattern>
@@ -277,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExpressionTest2" />
+        <item itemvalue="Application.MutableTest" />
         <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.HashTest" />
         <item itemvalue="JUnit.mygroup in javabasic" />
-        <item itemvalue="Application.EqualTest" />
-        <item itemvalue="Application.TestEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +360,8 @@
       <workItem from="1565320420731" duration="248000" />
       <workItem from="1565363357839" duration="30000" />
       <workItem from="1565378856226" duration="248000" />
+      <workItem from="1565629593761" duration="1669000" />
+      <workItem from="1565749103202" duration="4376000" />
     </task>
     <servers />
   </component>
@@ -330,12 +374,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23296000" />
+    <option name="totallyTimeSpent" value="29341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="23" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34020618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35051546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +389,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48969072" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48306334" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,8 +398,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5103093" side_tool="true" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48453608" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51693666" side_tool="true" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47717232" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,12 +592,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="103" column="39" lean-forward="true" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/LambdaExpressionTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mygroup/MutableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="105" lean-forward="true" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+          <folding>
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
