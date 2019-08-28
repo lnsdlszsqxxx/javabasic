@@ -18,5 +18,6 @@ public class DateTime {
         System.out.println(localDate);
         System.out.println(localTime);
         System.out.println(localTime.plusHours(3));
+        System.out.println(Test1.a);
     }
 }

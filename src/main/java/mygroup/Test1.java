@@ -2,7 +2,7 @@ package mygroup;
 
 public class Test1 {
 
-    int a=3;
+    public static int a=3;
     String name="Liang";
 
     public static void main(String args[]){
