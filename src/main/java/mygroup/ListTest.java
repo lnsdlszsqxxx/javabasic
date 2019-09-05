@@ -1,15 +1,13 @@
 package mygroup;
 
-import java.sql.SQLSyntaxErrorException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class ListTest {
 
     public static void main(String[] args) {
-        List<Integer> temp = new ArrayList<>(10);
+        List<Integer> temp = new ArrayList<>();
 
         temp.add(1);
         temp.add(2);
