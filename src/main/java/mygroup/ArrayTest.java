@@ -21,5 +21,14 @@ public class ArrayTest {
         double x1=3;
         double x2=4;
         System.out.println(x1);
+
+        int[] t = {3,6,1,7,8,4,23};
+
+        test(t);
+        System.out.println(Arrays.toString(t));
+    }
+
+    public static void test(int[] x){
+        x[3]=99;
     }
 }
