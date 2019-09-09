@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/max-area-of-island/
+//https://leetcode.com/problems/number-of-islands/
 package mygroup;
 
 public class NumberOfIslands {
