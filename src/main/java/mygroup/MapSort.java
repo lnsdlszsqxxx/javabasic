@@ -25,4 +25,35 @@ public class MapSort {
         List<Map.Entry<String,Integer>> temp =new  ArrayList(input.entrySet());
         return output;
     }
+
+
+    public static String mapSort(Map<Character,Integer> input){
+        LinkedHashMap<Character,Integer> output = new LinkedHashMap<Character,Integer>();
+
+        List<Map.Entry<Character,Integer>> temp =new ArrayList<Map.Entry<Character,Integer>>(input.entrySet());
+
+//        temp.sort(Map.Entry.comparingByValue());
+
+        //use Collections to sort
+        Collections.sort(temp, new Comparator<Map.Entry<Character, Integer>>() {
+            @Override
+            public int compare(Map.Entry<Character, Integer> o1, Map.Entry<Character, Integer> o2) {
+                return o1.getValue().compareTo(o2.getValue());
+            }
+        });
+
+        for(Map.Entry<Character,Integer> entry: temp){
+            output.put(entry.getKey(),entry.getValue());
+        }
+
+
+        int n=temp.size();
+        if(n<2) return "null";
+        if(temp.get(n-1).getValue()==1) return  "null";
+        if(temp.get(n-1).getValue()==temp.get(n-2).getValue()) return "tie";
+
+        return Character.toString(temp.get(n-1).getKey());
+
+    }
+
 }
