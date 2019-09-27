@@ -22,6 +22,7 @@ public class Permutations46 {
         if(start==input.length) {
             List<Integer> temp= arrayToList(input);
             output.add(temp);
+            return;
         }
         for (int i=start;i<input.length;i++){
             swap(input,start,i);
