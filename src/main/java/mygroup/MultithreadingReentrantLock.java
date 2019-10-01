@@ -1,5 +1,6 @@
 package mygroup;
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -10,15 +11,18 @@ import java.util.concurrent.locks.ReentrantLock;
 import static java.lang.Thread.sleep;
 
 public class MultithreadingReentrantLock {
+
+    public static int flag = 1;
+
     public static void main(String[] args) throws InterruptedException {
         ReentrantLock lock = new ReentrantLock();
         Condition conditionA = lock.newCondition();
         Condition conditionB = lock.newCondition();
         Condition conditionC = lock.newCondition();
 
-        Runnable r1 = new Thread2(lock, conditionA, conditionB, 'A');
-        Runnable r2 = new Thread2(lock, conditionB, conditionC, 'B');
-        Runnable r3 = new Thread2(lock, conditionC, conditionA, 'C');
+        Runnable r1 = new Thread3(lock, conditionA, conditionB, 'A');
+        Runnable r2 = new Thread3(lock, conditionB, conditionC, 'B');
+        Runnable r3 = new Thread3(lock, conditionC, conditionA, 'C');
 
         ExecutorService es = Executors.newFixedThreadPool(3);
         es.submit(r1);
@@ -30,6 +34,45 @@ public class MultithreadingReentrantLock {
         es.shutdown();
 
 
+    }
+}
+
+//livelock test
+class Thread3 implements Runnable{
+    ReentrantLock lock = new ReentrantLock();
+    Condition conditionCurrent;
+    Condition conditionNext;
+    char aChar;
+
+    Thread3(ReentrantLock lock, Condition conditionCurrent, Condition conditionNext, char aChar){
+        this.lock = lock;
+        this.conditionCurrent = conditionCurrent;
+        this.conditionNext = conditionNext;
+        this.aChar = aChar;
+    }
+
+    @Override
+    public void run(){
+        lock.lock();
+        try {
+            while(MultithreadingReentrantLock.flag==1){
+
+                System.out.println("waiting flag to change: "+aChar);
+                conditionNext.signal();
+
+                try {
+                    conditionCurrent.await();
+                }
+                catch (Exception e){
+                    System.out.println(e.getMessage());
+                }
+            }
+
+            MultithreadingReentrantLock.flag++; //this never gets run
+        }
+        finally {
+            lock.unlock();
+        }
     }
 }
 

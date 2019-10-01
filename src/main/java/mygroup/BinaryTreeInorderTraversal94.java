@@ -42,12 +42,12 @@ public class BinaryTreeInorderTraversal94 {
         while (stack.size() > 0) {
             top = stack.peek();
 
-            if(!(top.getRight()==null&&top.getLeft()==null)){
-                if(top.getRight()!=null) {
+            if(!(top.getRight()==null&&top.getLeft()==null)) {
+                if (top.getRight() != null) {
                     stack.push(top.getRight());
                     top.setRight(null);
                 }
-                if(top.getLeft()!=null) {
+                if (top.getLeft() != null) {
                     stack.push(top.getLeft());
                     top.setLeft(null);
                 }
