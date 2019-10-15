@@ -26,14 +26,15 @@ public class CombinationSum39 {
         int sum = sum(temp);
         if(sum>target) return;
         if(sum==target){
-            if(!isExist(output,temp)) output.add(new ArrayList<>(temp));
+           output.add(new ArrayList<>(temp));
+//            if(!isExist(output,temp)) output.add(new ArrayList<>(temp));
             return;
         }
 
         for(int i=start;i<candidates.length;i++){
             if(sum<target) {
                 temp.add(candidates[i]);
-                combine(output, temp, candidates, target, start);
+                combine(output, temp, candidates, target, i);
                 temp.remove(temp.size()-1);
             }
         }

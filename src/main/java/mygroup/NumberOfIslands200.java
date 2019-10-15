@@ -1,7 +1,10 @@
 //https://leetcode.com/problems/number-of-islands/
 package mygroup;
 
-public class NumberOfIslands {
+import java.util.HashSet;
+import java.util.Set;
+
+public class NumberOfIslands200 {
 
     public static void main(String[] args) {
 

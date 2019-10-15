@@ -1,9 +1,9 @@
 package mygroup;
 
 public class TreeNode {
-    private int root=0;
-    private TreeNode left=null;
-    private TreeNode right=null;
+    int root=0;
+    TreeNode left=null;
+    TreeNode right=null;
 
     public int getRoot() {
         return root;

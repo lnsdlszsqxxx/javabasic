@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/max-area-of-island/
 package mygroup;
 
-public class MaxAreaIsland {
+public class MaxAreaIsland695 {
 
     public static void main(String[] args) {
 
