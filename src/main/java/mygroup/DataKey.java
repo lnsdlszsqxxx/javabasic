@@ -34,12 +34,12 @@ public class DataKey {
         return  1;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (!(o instanceof DataKey)) return false;
-//        DataKey dataKey = (DataKey) o;
-//        return id == dataKey.id &&
-//                name.equals(dataKey.name);
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof DataKey)) return false;
+        DataKey dataKey = (DataKey) o;
+        return id == dataKey.id &&
+                name.equals(dataKey.name);
+    }
 }
