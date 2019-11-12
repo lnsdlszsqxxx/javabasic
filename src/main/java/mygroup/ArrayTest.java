@@ -6,6 +6,8 @@ import java.util.Arrays;
 public class ArrayTest {
 
     public static void main(String [] args){
+
+                System.out.println(Integer.MAX_VALUE);
         Integer[] temp = {3,6,1,7,8,4,23};
         System.out.println(Arrays.toString(temp));
 

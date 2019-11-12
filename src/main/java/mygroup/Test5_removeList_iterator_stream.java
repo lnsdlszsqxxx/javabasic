@@ -18,30 +18,33 @@ public class Test5_removeList_iterator_stream {
         list.add("b");
         list.add("c");
 
-        list.remove(list.indexOf("b"));
+//        list.remove(list.indexOf("b"));
+//        while(list.indexOf("b")!=-1){
+//            list.remove(list.indexOf("b"));
+//        }
 
         //throw exception Concurrent Modification Exception
 //        for(String e:list){
 //            if(e.equals("b")) list.remove(e);
 //        }
 
-        //throw exception Concurrent Modification Exception
+//        throw exception Concurrent Modification Exception
 //        for(int i=0;i<list.size();i++){
-//            if(list.get(i).equals("b")) list.remove(list.indexOf(i));
+//            if(list.get(i).equals("b")) list.remove(i);
 //        }
 
 //        //good
-//        Iterator<String> it=list.iterator();
-//        while(it.hasNext()){
-//            String s=it.next();
-//            if(s.equals("b")) it.remove();
-//        }
+        Iterator<String> it=list.iterator();
+        while(it.hasNext()){
+            String s=it.next();
+            if(s.equals("b")) it.remove();
+        }
 
-        //good
-        List<String> newList = list.stream().filter(e->!e.equals("b")).collect(Collectors.toList());
-
+//        good
+//        List<String> newList = list.stream().filter(e->!e.equals("b")).collect(Collectors.toList());
+        System.out.println(list);
 //        System.out.println(list.indexOf("dd"));
 //        System.out.println(list);
-        System.out.println(newList);
+//        System.out.println(newList);
     }
 }

@@ -2,8 +2,8 @@ package mygroup;
 
 import java.util.*;
 
-public class MapSort {
-    public static void main(String[] args) {
+public class MapSort{
+    public static void main(String[] args)  {
         Map<String, Integer> temp = new HashMap<>();
 
         System.out.println(temp.size());
